@@ -7,6 +7,7 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { PromesasComponent } from './promesas/promesas.component';
 import { LoginGuard } from '../services/guards/login.guard';
+import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
   {
@@ -38,6 +39,11 @@ const routes: Routes = [
         path: 'account-settings',
         component: AccountSettingsComponent,
         data: { titulo: 'Ajustes de tema' }
+      },
+      {
+        path: 'perfil',
+        component: ProfileComponent,
+        data: { titulo: 'Perfil de usuario' }
       },
       {
         path: '',
