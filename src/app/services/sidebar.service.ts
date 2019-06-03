@@ -12,7 +12,8 @@ export class SidebarService {
       submenu: [
         { titulo: 'Dashboard', url: '/dashboard' },
         { titulo: 'ProgressBar', url: '/progress' },
-        { titulo: 'Gráficas', url: '/graficas' }
+        { titulo: 'Gráficas', url: '/graficas' },
+        { titulo: 'Ajustes del tema', url: '/account-settings' }
       ]
     }
   ];

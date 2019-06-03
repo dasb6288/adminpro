@@ -9,7 +9,7 @@ export class SettingsService {
   ajustes: Ajustes = {
     temaUrl: 'assets/css/colors/default.css',
     tema: 'default'
-  }
+  };
 
   // tslint:disable-next-line: deprecation
   constructor(@Inject(DOCUMENT) private document) {
