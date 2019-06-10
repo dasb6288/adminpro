@@ -15,6 +15,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
 import { PromesasComponent } from './promesas/promesas.component';
 import { PipesModule } from '../pipes/pipes.module';
 import { ProfileComponent } from './profile/profile.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
+import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +29,9 @@ import { ProfileComponent } from './profile/profile.component';
     GraficoDonaComponent,
     AccountSettingsComponent,
     PromesasComponent,
-    ProfileComponent
+    ProfileComponent,
+    UsuariosComponent,
+    ModalUploadComponent
   ],
   imports: [
     CommonModule,

@@ -15,6 +15,15 @@ export class SidebarService {
         { titulo: 'Gráficas', url: '/graficas' },
         { titulo: 'Ajustes del tema', url: '/account-settings' }
       ]
+    },
+    {
+      titulo: 'Mantenimientos',
+      icono: 'mdi mdi-folder-lock-open',
+      submenu: [
+        { titulo: 'Usuarios', url: '/usuarios' },
+        { titulo: 'Hospitales', url: '/hospitales' },
+        { titulo: 'Médicos', url: '/medicos' }
+      ]
     }
   ];
 
