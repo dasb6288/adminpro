@@ -16,7 +16,6 @@ import { PromesasComponent } from './promesas/promesas.component';
 import { PipesModule } from '../pipes/pipes.module';
 import { ProfileComponent } from './profile/profile.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
-import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
 import { HospitalesComponent } from './hospitales/hospitales.component';
 import { MedicosComponent } from './medicos/medicos.component';
 import { MedicoComponent } from './medicos/medico.component';
@@ -35,7 +34,6 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
     PromesasComponent,
     ProfileComponent,
     UsuariosComponent,
-    ModalUploadComponent,
     HospitalesComponent,
     MedicosComponent,
     MedicoComponent,
